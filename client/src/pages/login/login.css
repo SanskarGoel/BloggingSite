@@ -1,0 +1,49 @@
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("https://img.freepik.com/free-vector/realistic-white-golden-geometric-background_79603-2032.jpg?w=996&t=st=1681471167~exp=1681471767~hmac=2819d950a5da6476decc1c455be54c9fb1213ee54e839e8c418b900a84531297");
+    background-size: cover ;
+}
+.loginTitle{
+    font-size: 50px;
+
+}
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.loginForm>label{
+    margin:10px 0;
+}
+.loginInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+.loginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    padding: 10px;
+}
+.loginButton:disabled{
+    cursor:not-allowed;
+    background-color: coral;
+}
+.loginRegisterButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
