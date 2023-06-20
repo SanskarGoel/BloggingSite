@@ -14,7 +14,7 @@ export default function Login() {
     dispatch({ type: "LOGIN_START" }); //refer reducer.js to know what happens when type:LOGIN_START
     try {
       const res = await axios.post(
-        "https://blogging-zx1s.onrender.com/auth/login",
+        "https://blogging-zx1s.onrender.com/api/auth/login",
         {
           username: userRef.current.value,
           password: passwordRef.current.value,
