@@ -33,7 +33,7 @@ export default function SinglePost() {
         "https://blogging-zx1s.onrender.com/api/posts/" + path,
         { data: { username: user.username } }
       );
-      window.location.replace("http://localhost:3000/");
+      window.location.replace("https://blogging-site.netlify.app/");
     } catch (err) {}
   };
   const handleUpdate = async () => {

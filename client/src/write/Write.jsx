@@ -20,7 +20,9 @@ export default function Write() {
         "https://blogging-zx1s.onrender.com/api/posts",
         newPost
       );
-      window.location.replace("http://localhost:3000/post/" + res.data._id);
+      window.location.replace(
+        "https://blogging-site.netlify.app/post/" + res.data._id
+      );
     } catch (err) {}
   };
   return (
